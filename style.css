@@ -1,0 +1,193 @@
+body{
+	background-color: #080808;
+	/* background-image: url('../images/back14.jpg'); */
+	color:#c0c0c0;
+	margin-left: 50px;
+	margin-right:50px;
+
+}
+
+#flexup {
+	display: inline-flex;
+	width: 100%;
+}
+
+#main-header{
+	font-size: 25px;
+	color:#c0c0c0;
+	background-color: #202020;
+	margin :0px 10px;
+	padding-top: 1px;
+	padding-bottom: 1px; 
+	text-align: center;
+    border-radius: 10px;
+
+}
+
+#navbar{
+	background-color: #101010;
+	margin: 8px 10px 5px 10px;
+	padding-right: 15px;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	border-radius: 10px;
+	width:88%;
+	box-sizing: border-box;
+}
+
+ul{
+	list-style: none;
+}
+
+#navbar li{
+	display: inline;
+}
+
+#navbar a{
+	
+	border-right-style: solid;
+	border-right-width: 4px;
+	border-color: #c0c0c0;	
+	text-decoration: none;
+	color: #c0c0c0;
+	font-size: 20px;
+	padding-right: 15px;
+	padding-left: 15px;
+}
+
+#navbar a:hover{
+	color: #888888;
+}
+
+
+
+#signbar{
+	background-color: #202020;
+	margin: 8px 10px;
+	padding: 0px 5px;
+	border-radius: 10px;
+	display: inline-block;
+	text-align: center;
+}
+
+
+#signbar button{
+	font-family: 'Times New Roman', Times, serif;
+	text-decoration: none;
+	color: #c0c0c0;
+	font-size: 20px;
+	background-color: #202020;
+	border:none;
+	margin: 0px;
+	padding: 2px 4px;
+}
+
+#signbar li, ul{
+	margin: 3px 5px; 
+}
+
+#signbar hr{
+	background-color: #101010 ;
+	height: 3px;
+	border: none;
+}
+
+#signbar button:hover{
+	color: #888888;
+}
+
+.smartd:hover{
+   background: orangered;
+   color: #f5f5f5;
+}
+
+.box{
+	text-align: center;
+}
+
+.my-form{
+	font-size: 17px;
+	margin: 20px auto;
+	padding: 10px 70px;
+	background-color: #202020;
+	border-radius: 20px;
+	display: none;
+	text-align: center;
+}
+
+.my-form label{
+	display: block;
+	margin-top: 20px;
+}
+
+.gender{
+	margin-right: 5px;
+}
+
+select{
+	border-color: orangered;
+	width: 100px;
+	height: 30px;
+}
+
+input[type = "text"]:hover, input[type ="Email"]:hover, input[type ="password"]:hover, select:hover{
+	border-color:  #404040;
+	border-width: 2px;
+}
+
+input[type = "text"], input[type ="Email"], input[type ="password"] {
+	border-radius: 5px;
+	border-style: solid;
+	border-color: orangered; 
+	width:200px;
+	padding: 5px;
+	margin: 10px;
+	display: block;
+}
+
+.my-form:hover{
+	background-color: #101010;
+	border-style: solid;
+	border-color: grey;
+}
+
+
+input[type = "submit"] {
+	width :80px;
+	height:30px;
+	background-color:tomato;
+	color: white;
+	border: none;
+	border-radius: 3px;
+	display: block;
+	margin: 10px auto;
+}
+
+input[type = "submit"]:hover{
+	background-color: #404040;
+}
+
+
+.signin{
+	font-size: 17px;
+	margin: 20px auto;
+	padding: 10px 70px;
+	background-color: #202020;
+	border-radius: 20px;
+	display: inline-block;
+	text-align: center;
+}
+
+
+.signin label{
+	display: block;
+	margin-top: 20px;
+}
+
+#main-footer{
+	margin:20px;
+	text-align: center;
+	font-size: 20px;
+	margin-top: 100px;
+}
+
